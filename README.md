@@ -7,6 +7,7 @@ The project of design patterns.
     * [Decorator](#12-decorator-pattern)
 2. [Creational patterns](#creational-patterns)
     * [Builder](#21-builder-pattern)
+    * [Factory](#22-factory-pattern)
 3.  [Behavioral patterns](#behavioral-patterns)
     * [Command](#31-command-pattern)
 
@@ -30,6 +31,11 @@ __Building an object with fragments.__
 > * To build a complex object, first create the necessary simple objects.
 > * The builder class decides what a given object should look like and builds the final object step by step.
 > * Use when the class being built has more than 4-5 member fields.
+
+### 2.2. Factory pattern
+__Creating objects.__
+> * Creating an object without exposing the creation logic to the client.
+> * Referring to newly created object using a common interface.
 
 ## Behavioral patterns
 ### 3.1. Command pattern
