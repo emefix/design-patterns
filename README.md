@@ -10,6 +10,7 @@ The project of design patterns.
     * [Factory](#22-factory-pattern)
 3.  [Behavioral patterns](#behavioral-patterns)
     * [Command](#31-command-pattern)
+    * [Strategy](#32-strategy-pattern)
 
 ## Structural patterns 
 ### 1.1. Adapter pattern
@@ -44,3 +45,8 @@ __User request wrapping.__
 > * Object must be subordinate to one interface, containing one method that performs the specified request.
 > * The invoker object passes the command to the appropriate recipient which can handle this command in order to execute command.
 
+### 3.2. Strategy pattern
+__Family of algorithms being classes.__
+> * Creating objects which represent various strategies.
+> * A context object selects which algorithm will be executed.
+> * The behavior of the context object varies as per its strategy object.
