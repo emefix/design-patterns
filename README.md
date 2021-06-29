@@ -5,6 +5,7 @@ The project of design patterns.
 1. [Structural patterns](#structural-patterns)
     * [Adapter](#11-adapter-pattern)
     * [Decorator](#12-decorator-pattern)
+    * [Composite](#13-composite-pattern)
 2. [Creational patterns](#creational-patterns)
     * [Builder](#21-builder-pattern)
     * [Factory](#22-factory-pattern)
@@ -25,6 +26,12 @@ __Improvement and development of the object.__
 > * The decorator class must have the same interface as the object it will decorate.
 > * The decorated object must be passed to the decorator object.
 > * The existing object receives new functionality at runtime. 
+
+### 1.3. Composite pattern
+__A tree structure of group of object.__
+> * Composite pattern treats a group of object in similar way as a single object.
+> * This pattern composes objects in term of a tree structure to represent a hierarchy.
+> * A class that contains a group of its own objects provides ways to modify them.
 
 ## Creational patterns
 ### 2.1. Builder pattern
