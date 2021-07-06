@@ -13,6 +13,7 @@ The project of design patterns.
 3.  [Behavioral patterns](#behavioral-patterns)
     * [Command](#31-command-pattern)
     * [Strategy](#32-strategy-pattern)
+    * [Observer](#33-observer-pattern)
 
 ## Structural patterns 
 ### 1.1. Adapter pattern
@@ -65,3 +66,9 @@ __Family of algorithms being classes.__
 > * Creating objects which represent various strategies.
 > * A context object selects which algorithm will be executed.
 > * The behavior of the context object varies as per its strategy object.
+
+### 3.3. Observer pattern
+__One-to-many relationship between objects.__
+> * If one object is modified, its dependent objects are to be notified automatically.
+> * Subject class has methods to attach and detach observers.
+> * Observer abstract class has a Subject object and an update method. 
