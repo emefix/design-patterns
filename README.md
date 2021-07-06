@@ -9,6 +9,7 @@ The project of design patterns.
 2. [Creational patterns](#creational-patterns)
     * [Builder](#21-builder-pattern)
     * [Factory](#22-factory-pattern)
+    * [Abstract factory](#23-abstract-factory-pattern)
 3.  [Behavioral patterns](#behavioral-patterns)
     * [Command](#31-command-pattern)
     * [Strategy](#32-strategy-pattern)
@@ -44,6 +45,13 @@ __Building an object with fragments.__
 __Creating objects.__
 > * Creating an object without exposing the creation logic to the client.
 > * Referring to newly created object using a common interface.
+
+### 2.3. Abstract factory pattern
+__Factory of factories.__
+> * A super-factory which creates other factories.
+> * An interface is responsible for creating a factory of related objects.
+> * A factory producer class includes a static method that returns an abstract factory type object as specified by the factory selection parameter.
+> * Each generated factory can give the objects as per the factory pattern.
 
 ## Behavioral patterns
 ### 3.1. Command pattern
