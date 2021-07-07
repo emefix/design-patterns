@@ -11,6 +11,7 @@ The project of design patterns.
     * [Builder](#21-builder-pattern)
     * [Factory](#22-factory-pattern)
     * [Abstract factory](#23-abstract-factory-pattern)
+    * [Singleton](#24-singleton-pattern)
 3.  [Behavioral patterns](#behavioral-patterns)
     * [Command](#31-command-pattern)
     * [Strategy](#32-strategy-pattern)
@@ -59,6 +60,13 @@ __Factory of factories.__
 > * An interface is responsible for creating a factory of related objects.
 > * A factory producer class includes a static method that returns an abstract factory type object as specified by the factory selection parameter.
 > * Each generated factory can give the objects as per the factory pattern.
+
+### 2.4. Singleton pattern
+__Only one instance of the class.__
+> * A single class which is responsible to create an object while making sure that only single object gets created.
+> * This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
+> * The static method creates its own instance of the class as a private static field.
+> * The defined constructor must be parameterless and private.
 
 ## Behavioral patterns
 ### 3.1. Command pattern
