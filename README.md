@@ -16,6 +16,7 @@ The project of design patterns.
     * [Command](#31-command-pattern)
     * [Strategy](#32-strategy-pattern)
     * [Observer](#33-observer-pattern)
+    * [Template method](#34-template-method-pattern)
 
 ## Structural patterns 
 ### 1.1. Adapter pattern
@@ -86,3 +87,9 @@ __One-to-many relationship between objects.__
 > * If one object is modified, its dependent objects are to be notified automatically.
 > * Subject class has methods to attach and detach observers.
 > * Observer abstract class has a Subject object and an update method. 
+
+### 3.4. Template method pattern
+__Method with the algorithm template.__
+> * An abstract class includes unchanged part of the algorithm in the template method.
+> * Subclasses can override the method implementation as per need, but the invocation is to be in the same way as defined by the parent class.
+
