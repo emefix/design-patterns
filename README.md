@@ -7,6 +7,7 @@ The project of design patterns.
     * [Decorator](#12-decorator-pattern)
     * [Composite](#13-composite-pattern)
     * [Facade](#14-facade-pattern)
+    * [Proxy](#15-proxy-pattern)
 2. [Creational patterns](#creational-patterns)
     * [Builder](#21-builder-pattern)
     * [Factory](#22-factory-pattern)
@@ -42,6 +43,13 @@ __A tree structure of group of object.__
 __Client interface.__
 > * Facade pattern hides the complexities of the system and provides an interface to the client.
 > * The client interface allows access to the system.
+
+### 1.5. Proxy pattern
+__Representation of another class.__
+> * A proxy class is a simplified version of a complex or heavy object.
+> * A good solution to enable or mediate access to object, either local or remote.
+> * The proxy class has the original object to interface its functionality to outer world.
+> * For every other subsequent call, this pattern will skip the initial configuration, and only processing will occur.
 
 ## Creational patterns
 ### 2.1. Builder pattern
