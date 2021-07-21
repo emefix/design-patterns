@@ -13,6 +13,7 @@ The project of design patterns.
     * [Factory](#22-factory-pattern)
     * [Abstract factory](#23-abstract-factory-pattern)
     * [Singleton](#24-singleton-pattern)
+    * [Prototype](#25-prototype-pattern)
 3.  [Behavioral patterns](#behavioral-patterns)
     * [Command](#31-command-pattern)
     * [Strategy](#32-strategy-pattern)
@@ -76,6 +77,12 @@ __Only one instance of the class.__
 > * This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
 > * The static method creates its own instance of the class as a private static field.
 > * The defined constructor must be parameterless and private.
+
+### 2.5. Prototype pattern
+__A duplicate of a costly object.__
+> * A prototype interface tells to create a clone of the object that may include costly operations.
+> * The existing object acts as a prototype and contains the state of the object.
+> * The newly copied object may change same properties only if required.
 
 ## Behavioral patterns
 ### 3.1. Command pattern
